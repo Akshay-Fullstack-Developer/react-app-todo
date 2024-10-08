@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { tododata } from '../../userdata';
+// import { tododata } from '../../userdata';
 import { InputGroup } from 'react-bootstrap';
 
 
@@ -15,9 +15,9 @@ function App() {
   const [status, setStatus] = useState("")
   const [isdataempty, setIsdataempty] = useState(0)
 
-  useEffect(() => {
-    setData(tododata)
-  }, [])
+  // useEffect(() => {
+  //   setData(tododata)
+  // }, [])
 
 
 
